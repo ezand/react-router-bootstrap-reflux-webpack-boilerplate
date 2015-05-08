@@ -1,5 +1,7 @@
 # React and friends boilerplate
 
+[![Build Status](https://travis-ci.org/ezand/react-router-bootstrap-reflux-webpack-template.svg?branch=master)](https://travis-ci.org/ezand/react-router-bootstrap-reflux-webpack-template)
+
 Used technologies:  
 
 - React
