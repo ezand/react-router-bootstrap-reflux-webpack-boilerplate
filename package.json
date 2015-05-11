@@ -2,7 +2,7 @@
   "name": "react-router-bootstrap-reflux-webpack-template",
   "version": "0.0.1",
   "description": "React and friends boilerplate",
-  "homepage": "https://github.com/ezand/eximo-dashboard",
+  "homepage": "https://github.com/ezand/react-router-bootstrap-reflux-webpack-boilerplate",
   "author": "Eirik Sand",
   "license": "MIT",
   "keywords": [
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ezand/eximo-dashboard.git"
+    "url": "https://github.com/ezand/react-router-bootstrap-reflux-webpack-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/ezand/eximo-dashboard/issues"
+    "url": "https://github.com/ezand/react-router-bootstrap-reflux-webpack-boilerplate/issues"
   },
   "engines": {
     "node": ">= 0.12.2",
