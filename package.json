@@ -10,7 +10,8 @@
     "react-router",
     "react-bootstrap",
     "reflux",
-    "webpack"
+    "webpack",
+    "jest"
   ],
   "repository": {
     "type": "git",
@@ -28,7 +29,16 @@
     "build": "TARGET=build webpack",
     "start": "TARGET=dev webpack-dev-server --progress --colors --hot --content-base build",
     "lint": "eslint . --ext .js --ext .jsx",
-    "clean": "node config/clean.js"
+    "clean": "node ./config/clean.js",
+    "test": "jest"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": ["es6", "js", "jsx"],
+    "moduleFileExtensions": ["js", "json", "es6", "jsx"],
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ]
   },
   "dependencies": {
     "debug": "^2.1.3",
@@ -39,11 +49,13 @@
     "react-bootstrap": "^0.21.2",
     "react-router": "^0.13.3",
     "react-router-bootstrap": "^0.13.3",
+    "react-tools": "^0.13.2",
     "reflux": "^0.2.7"
   },
   "devDependencies": {
     "babel-core": "^5.2.17",
     "babel-eslint": "^3.1.1",
+    "babel-jest": "^5.2.0",
     "babel-loader": "^5.0.0",
     "bootstrap-sass": "^3.3.4",
     "bootstrap-sass-loader": "^1.0.4",
@@ -55,6 +67,7 @@
     "esprima-fb": "^15001.1.0-dev-harmony-fb",
     "file-loader": "^0.8.1",
     "html-webpack-plugin": "^1.3.0",
+    "jest-cli": "^0.4.1",
     "jscs": "^1.13.1",
     "jscs-loader": "0.0.5",
     "lodash": "^3.8.0",

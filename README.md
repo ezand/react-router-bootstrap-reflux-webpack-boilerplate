@@ -2,7 +2,12 @@
 
 [![Build Status](https://travis-ci.org/ezand/react-router-bootstrap-reflux-webpack-boilerplate.svg?branch=master)](https://travis-ci.org/ezand/react-router-bootstrap-reflux-webpack-boilerplate)
 
-Used technologies:  
+## TODO
+
+**jest** doesn't work with *node v0.12.x*, currently only runs on *v0.10.38*.
+If you have a newer version than *v0.10.38*, install nvm to easily switch between node versions.
+
+## Used technologies  
 
 - React
 - ES6
@@ -13,6 +18,7 @@ Used technologies:
 - React Router
 - React Router Bootstrap
 - Reflux
+- Jest
 
 ## How to build
 
